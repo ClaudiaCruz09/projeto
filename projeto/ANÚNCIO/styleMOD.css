@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6a5acd;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    border: 0;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #F2F1EC;
+    border-radius: 0px;
+    border:none;
+    width: 700px;
+    max-width: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19);
+}
+
+.header {
+    padding: 30px 40px;
+}
+
+.header h2 {
+    font-weight: 600;
+    color: #0a1b2d;
+    font-size: 32px;
+}
+
+.header h4 {
+    font-weight: 400;
+    color: #0a1b2d;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.form {
+    padding: 0 40px 30px;
+}
+
+
+
+.UF-CID-BAR {
+    display: flex;
+    width: 620px;
+    height: 80px;
+
+}
+
+.UF {
+    width: 100%/3;
+    padding-right: 30px;
+}
+
+.CID {
+    width: 100%/3;
+    padding-right: 30px;
+}
+
+
+.CEP-RUA-NUM-COMP{
+    display: flex;
+    width: 620px;
+    height: 80px;
+    
+}
+
+.cep {
+    width: 29%;
+    padding-right: 3%;
+    
+}
+
+.rua {
+    width:43%;
+    padding-right:3%;
+}
+.num {
+    width: 20%;
+    padding-right:3%;
+}
+.comp {
+    width: 17%;
+    
+}
+
+.TGP {
+    display: flex;
+    width: 620px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.tipo {
+    width: 25%;
+    padding-right:3%
+    
+}
+.gar {
+    width: 25%;
+    padding-right:3%
+}
+.pet{
+    width: 25%;
+    padding-right:3%
+}
+.casal{
+    width: 25%;
+    padding-right:3%
+}
+
+.MPO{
+    display: flex;
+    width: 620px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
+.mob {
+    width: 25%;
+    padding-right:3%
+}
+.oni{
+    width: 25%;
+    padding-right:3%
+}
+.met{
+    width: 25%;
+    padding-right:3%
+}
+
+.CDCM{
+    display: flex;
+    width: 620px;
+    height: 550px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.cd {
+    width: 50%;
+    padding-right:0.1%;
+}
+.cm{
+    width: 50%;
+    padding-right: 0.1%;
+    
+}
+
+.MB {
+    display: flex;
+    width: 620px;
+    height: 340px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  
+    
+}
+
+.m{
+    width: 50%;
+    padding-right: 0.1%;
+}
+.b{
+    width: 50%;
+    padding-right: 0.1%;
+}
+
+
+
+
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #0a1b2d ;
+    font-weight:bold;
+}
+
+.form-control input {
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 20px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control p{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #0a1b2d ;
+    font-weight: bold;
+}
+
+.form-control select{
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 20px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+    font-weight: 300;
+
+    width: 100%;
+    padding: 9px;
+
+}
+
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+
+.form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.form button {
+    background-color: #6A5ACD;
+    border:1px solid rgb(62, 30, 122);
+    border-radius: 20px;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 20%;
+    justify-content: end;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #584ff5;
+    transition: 0.3s;
+}

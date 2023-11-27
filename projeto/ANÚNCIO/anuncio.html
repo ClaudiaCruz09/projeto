@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Anuncie seu imóvel para alugar</h2>
+        </div>
+
+        <form class="form" id="form">
+
+            <div class="form-CUC">
+
+                <div class="form-control">
+
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade">
+                    <i class="img-success"><img src="./success-icon.svg" alt=""></i>
+                    <i class="img-error"><img src="./error-icon.svg" alt=""></i>
+        
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-control">
+
+                    <label for="uf">UF</label>
+                    <input type="text" id="uf">
+                    <i class="img-success"><img src="./success-icon.svg" alt=""></i>
+                    <i class="img-error"><img src="./error-icon.svg" alt=""></i>
+        
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-control-cep">
+
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep">
+                    <i class="img-success"><img src="./success-icon.svg" alt=""></i>
+                    <i class="img-error"><img src="./error-icon.svg" alt=""></i>
+        
+                    <small>Error message</small>
+                    </div>
+            </div>
+            
+
+            <div class="form-endereco-geral">
+
+                <div class="form-control-endereco">
+    
+                    <label for="endereço">Endereço</label>
+                    <input type="text" id="endereço">
+                    <i class="img-success"><img src="./success-icon.svg" alt=""></i>
+                    <i class="img-error"><img src="./error-icon.svg" alt=""></i>
+                    <small>Error message</small>
+
+                </div>
+
+                <div class="form-control">
+    
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro">
+                    <i class="img-success"><img src="./success-icon.svg" alt=""></i>
+                    <i class="img-error"><img src="./error-icon.svg" alt=""></i>
+        
+                    <small>Error message</small>
+    
+                </div>
+    
+                <div class="form-control-numero">
+    
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero">
+                    <i class="img-success"><img src="./success-icon.svg" alt=""></i>
+                    <i class="img-error"><img src="./error-icon.svg" alt=""></i>
+                    <small>Error message</small>
+
+                </div>
+    
+                <div class="form-control-complemento">
+    
+                    <label for="Complemento">Complemento</label>
+                    <input type="text" id="Complemento">
+                    <i class="img-success"><img src="./success-icon.svg" alt=""></i>
+                    <i class="img-error"><img src="./error-icon.svg" alt=""></i>
+                    <small>Error message</small>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="form-selects">
+
+                <div class="form-control">
+                
+                    <p class="type">Tipo do imóvel</p>
+                    <select id="tipo" name="tipo" required>
+                        <option value="Apartamento">Apartamento</option>
+                        <option value="Casa">Casa</option>
+                        <option value="Casa_Condomínio">Casa de Condomínio</option>
+                        <option value="Kitnet_Studio">Kitnet/Studio</option>
+                        <option value="Republica">República</option>
+                        <option value="Pensionato">Pensioanto</option>
+                    </select>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <p class="Vagas_Garagem">Vagas de Garagem</p>
+                    <select id="Vagas_Garagem" name="Vagas_Garagem" required>
+                        <option value="Não">Não</option>
+                        <option value="Vaga1">1</option>
+                        <option value="Vaga2">2</option>
+                        <option value="Vaga3">3+</option>
+                    </select>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <p class="Aceita_pets">Aceita pets</p>
+                    <select id="Aceita_pets" name="Aceita_pets" required>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+     
+                    </select>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <p class="Aceita_Casal">Aceita casal</p>
+                    <select id="Aceita_Casal" name="Aceita_Casal" required>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+     
+                    </select>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <p class="Mobiliado">Mobiliado</p>
+                    <select id="Mobiliado" name="Mobiliado" required>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+     
+                    </select>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <p class="Prox_Oni">Próximo à parada de ônibus</p>
+                    <select id="Prox_Oni" name="Prox_Oni" required>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+     
+                    </select>
+    
+                </div>
+    
+                <div class="form-control">
+    
+                    <p class="Prox_Met">Próximo ao metrô</p>
+                    <select id="Prox_Met" name="Prox_Met" required>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+     
+                    </select>
+    
+                </div>
+
+            </div>
+            
+
+            <div class="form-control">
+
+                <p class="CondominioCB">Condomínio</p>
+                
+                    <input type="checkbox" name="veiculo1" class="checkboxbonito" value="academia">Academia<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="areaVerde">Área Verde<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="Brinquedoteca">Brinquedoteca<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="Churrasqueira">Churrasqueira<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="Elevador">Elevador<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="Lavanderia">Lavanderia<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="Piscina">Piscina<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="Playground">Playground<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="Portaria">Portaria 24h<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="Quadra">Quadra Esportiva<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="SalaoFesta">Salão de Festas<br>
+                    <input type="checkbox" name="veiculo2" class="checkboxbonito" value="SalaoJogo">Salão de Jogos<br>
+                    <!--campo para escrever outro -->
+ 
+                </select>
+
+            </div>
+            <div class="form-control">
+
+                <p class="Comodidades">Comodidades</p>
+                
+                    <input type="checkbox" name="veiculo1" value="cobertura">Apartamento cobertura<br>
+                    <input type="checkbox" name="veiculo2" value="Ar_Condicionado">Ar condicionado<br>
+                    <input type="checkbox" name="veiculo2" value="Banheira">Banheira<br>
+                    <input type="checkbox" name="veiculo2" value="Box">Box<br>
+                    <input type="checkbox" name="veiculo2" value="Churrasqueira">Churrasqueira<br>
+                    <input type="checkbox" name="veiculo2" value="ChuveiroGas">Chuveiro a gás<br>
+                    <input type="checkbox" name="veiculo2" value="Closet">Closet<br>
+                    <input type="checkbox" name="veiculo2" value="Novos_Reformados">Novos ou reformados<br>
+                    <input type="checkbox" name="veiculo2" value="Pisicna_Privativa">Piscina privativa<br>
+                    <input type="checkbox" name="veiculo2" value="Somente_Uma_Casa_Terreno">Somente uma casa no terreo<br>
+                    <input type="checkbox" name="veiculo2" value="Tanque">Tanque<br>
+                    <input type="checkbox" name="veiculo2" value="Televisao">Televisão<br>
+                    <input type="checkbox" name="veiculo2" value="Utensílios">Utensílios de cozinha<br>
+                    <input type="checkbox" name="veiculo2" value="Ventilador">Ventilador de teto<br>
+
+                    
+ 
+                </select>
+
+            </div>
+
+            <div class="form-control">
+
+                <p class="Mobílias">Mobílias</p>
+                
+                    <input type="checkbox" name="veiculo1" value="ArmariosCozinha">Armários na Cozinha<br>
+                    <input type="checkbox" name="veiculo2" value="ArmariosQuarto">Armários no quarto<br>
+                    <input type="checkbox" name="veiculo2" value="ArmariosBanheiro">Armários nos banheiros<br>
+                    <input type="checkbox" name="veiculo2" value="CamaC">Cama de Casal<br>
+                    <input type="checkbox" name="veiculo2" value="CamaS">Cama de solteiro<br>
+                    <input type="checkbox" name="veiculo2" value="MCjantar">Mesas e cadeiras de jantar<br>
+                    <input type="checkbox" name="veiculo2" value="Sofa">Sofá<br>     
+ 
+                </select>
+
+            </div>
+            <div class="form-control">
+
+                <p class="Mobílias">Bem-Estar</p>
+                    <input type="checkbox" name="veiculo1" value="Janelas">Janelas grandes<br>
+                    <input type="checkbox" name="veiculo2" value="RuaSilenciosa">Rua silenciosa<br>
+                    <input type="checkbox" name="veiculo2" value="SolManha">Sol de manhã<br>
+                    <input type="checkbox" name="veiculo2" value="SolTarde">Sol da tarde<br>
+                    <input type="checkbox" name="veiculo2" value="VistaLivre">Vista livre<br>
+
+            
+                </select>
+
+            </div>
+
+            <div class="form-control">
+
+                <p class="Mobílias">Eletrodomésticos</p>
+                
+                    <input type="checkbox" name="veiculo1" value="Janelas">Janelas grandes<br>
+                    <input type="checkbox" name="veiculo2" value="RuaSilenciosa">Rua silenciosa<br>
+                    <input type="checkbox" name="veiculo2" value="SolManha">Sol de manhã<br>
+                    <input type="checkbox" name="veiculo2" value="SolTarde">Sol da tarde<br>
+                    <input type="checkbox" name="veiculo2" value="VistaLivre">Vista livre<br>
+            
+                </select>
+
+            </div>
+
+
+            <button type="submit" >ENVIAR</button>
+        </form>
+   </div>     
+</body>
+</html>

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6a5acd;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    border: 0;
+}
+
+.container {
+    background-color: #F2F1EC;
+    border-radius: 0px;
+    border:none;
+    width: 700px;
+    max-width: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19);
+}
+
+.header {
+    padding: 30px 40px;
+}
+
+.header h2 {
+    font-weight: 600;
+    color: #0a1b2d;
+    font-size: 32px;
+}
+
+.form {
+    padding: 0 40px 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #0a1b2d ;
+    font-weight: bold;
+}
+
+.form-control input {
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 20px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
+} 
+
+.form-control p{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #0a1b2d ;
+    font-weight: bold;
+}
+
+
+
+.form-endereco-geral{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-selects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.form-control select{
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 20px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width:30px
+
+}
+
+.form-control-cep {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control-cep label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #0a1b2d ;
+    font-weight: bold;
+}
+
+.form-control-cep input {
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 20px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 50%;
+    padding: 15px;
+} 
+
+.form-control-numero {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-left: 185px;
+}
+
+.form-control-numero label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #0a1b2d ;
+    font-weight: bold;
+}
+
+.form-control-numero input {
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 15px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 80%;
+    padding: 15px;
+} 
+
+.form-control-endereco {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-left: 5px;
+   
+}
+
+.form-control-endereco label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #0a1b2d ;
+    font-weight: bold;
+}
+
+.form-control-endereco input {
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 15px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+    width: 250%; 
+    padding: 15px;
+} 
+
+.form-control-complemento {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-right: 70px;
+}
+
+.form-control-complemento label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #0a1b2d ;
+    font-weight: bold;
+}
+
+.form-control-complemento input {
+    border:1px solid rgb(177, 177, 177);
+    border-radius: 15px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+    width: 80%;
+    padding: 15px;
+} 
+.form-CUC{
+      display:flex
+}
